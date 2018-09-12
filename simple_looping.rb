@@ -12,6 +12,8 @@ def loop_iterator(number_of_times)
   end
 end
 
+#if needs an 'end'!
+
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times.times do
@@ -44,3 +46,4 @@ def for_iterator(number_of_times)
     puts phrase
   end
 end
+# number_of_times needs to be assigned to a range, each is the individual element.
